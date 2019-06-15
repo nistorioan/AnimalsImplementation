@@ -6,7 +6,7 @@ namespace ProjectClassAnimals
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Project Class Animals");
+            Console.WriteLine("Hello Class Animals Project");
 
             Bird bird = new Bird();
             bird.eats();
@@ -16,7 +16,12 @@ namespace ProjectClassAnimals
             Horse horse = new Horse();
             horse.eats();
             horse.sleep();
-            Console.WriteLine(); 
+            Console.WriteLine();
+
+            Sheep sheep = new Sheep();
+            sheep.eats();
+            sheep.sleep();
+            Console.WriteLine();
         }
     }
 }
