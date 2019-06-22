@@ -6,31 +6,31 @@ using System.Threading.Tasks;
 
 namespace ProjectClassAnimals
 {
-    class Sheep: Animal
+    class Donkey : Animal
     {
-        public Sheep()
+        public Donkey()
         {
-            Console.WriteLine("We have created a new Sheep for our farm");
+            Console.WriteLine("We have created a new Donkey for our farm");
         }
 
         public override void Eats()
         {
-            Console.WriteLine("The sheep eats grass and feed");
+            Console.WriteLine("The donkey eats grass");
         }
 
         public override void Sleep()
         {
-            Console.WriteLine("The sheep sleeps outside on the field");
+            Console.WriteLine("The donkey sleeps in the barn");
         }
 
         public override void Sound()
         {
-            Console.WriteLine("Beee Beheeee");
+            Console.WriteLine("Ihaaa Ihaaaaa Ihaaa");
         }
 
         public override void Trick()
         {
-            Console.WriteLine("Spin Spin around");
+            Console.WriteLine("Jumpy Jumpies");
         }
     }
 }

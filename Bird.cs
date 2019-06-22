@@ -13,13 +13,24 @@ namespace ProjectClassAnimals
             Console.WriteLine("A bird was created");
         }
 
-        public override void eats()
+        public override void Eats()
         {
             Console.WriteLine("Our birds eats worms and seeds");
         }
-        public override void sleep()
+
+        public override void Sleep()
         {
             Console.WriteLine("A bird sleeps in a nest or on a branch");
+        }
+
+        public override void Sound()
+        {
+            Console.WriteLine("Cip Cip Cip");
+        }
+
+        public override void Trick()
+        {
+            Console.WriteLine("Roll Roll and Back");
         }
     }
 }
