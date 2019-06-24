@@ -29,7 +29,7 @@ public abstract class Price {
 	            case Night:       return new NightPrice();
 	            case Weekend:     return new WeekendPrice();
 	        }
-	        throw new IllegalArgumentException("The pizza type " + priceType + " is not recognized.");
+	        throw new IllegalArgumentException("The price " + priceType + " is not recognized.");
 	    }
 
 }
