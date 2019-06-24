@@ -3,24 +3,7 @@ import java.util.ArrayList;
 public class MainClass {
 
 	public static void main(String[] args) {
-	   //  AnimalFactory animalFactory = new AnimalFactory();
 
-	      //get an object of Circle and call its draw method.
-	     // Animal cat = animalFactory.getAnimal("CAT");
-	      //cat.eats();
-	      //cat.sleep();
-
-	      //get an object of Rectangle and call its draw method.
-	      //Animal cow = animalFactory.getAnimal("COW");
-	      //cow.eats();
-	      //cow.sleep();
-
-	      //get an object of Square and call its draw method.
-	      //Animal bird = animalFactory.getAnimal("BIRD");
-	      //bird.eats();
-	      //bird.sleep();
-	   //}
-	
 		
 		
 		  System.out.println( "The ZOO has the following animals: ");
